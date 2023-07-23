@@ -3,13 +3,13 @@ figlet STATUS
 git status
 
 # this adds them to be commited
-figlet Adding.....
+figlet Adding . . . . . 
 git add . 
 
 # this commits the files
-figlet Commiting.....
+figlet Commiting . . . . . 
 git commit -m "initial commit" 
 
 # this pushes the code to the main branch of the repository
-figlet Uploaded!!
+figlet Uploaded ! !
 git push 

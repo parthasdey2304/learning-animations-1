@@ -41,8 +41,11 @@ timeline
 
 let mousepointer = document.querySelector("#mousepointer")
 window.addEventListener("mousemove", () => {
-    setTimeout(() => {
-        mousepointer.style.top = event.pageX + "px";
-        mousepointer.style.left = event.pageY + "px";
+
+    let x_coordinates = event.pageX + "px";
+    let y_coordinates = event.pageY + "px";
+    mousepointer.style.left = x_coordinates + "px";
+    mousepointer.style.top = y_coordinates + "px";
+    setInterval(() => {
     }, 100)
 })

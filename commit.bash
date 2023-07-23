@@ -1,3 +1,4 @@
+clear
 # this shows the list of the files that have been added or updated or removed or modified
 figlet STATUS
 git status

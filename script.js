@@ -40,7 +40,9 @@ timeline
 })
 
 let mousepointer = document.querySelector("#mousepointer")
-mousepointer.addEventListener("mousemove", () => {
-    mousepointer.style.top = event.pageX;
-    mousepointer.style.left = event.pageY;
+window.addEventListener("mousemove", () => {
+    setTimeout(() => {
+        mousepointer.style.top = event.pageX + "px";
+        mousepointer.style.left = event.pageY + "px";
+    }, 100)
 })

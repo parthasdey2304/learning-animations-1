@@ -46,6 +46,4 @@ window.addEventListener("mousemove", () => {
     let y_coordinates = event.pageY + "px";
     mousepointer.style.left = x_coordinates + "px";
     mousepointer.style.top = y_coordinates + "px";
-    setInterval(() => {
-    }, 100)
 })

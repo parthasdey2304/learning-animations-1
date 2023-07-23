@@ -9,7 +9,8 @@ timeline
 })
 .from("#mountains", {
     duration: 1,
-    y: 40,
+    y: 60,
+    scale: 2,
     ease: "expo.easeInOut",
     opacity: 0
 }, "-=0.5")
